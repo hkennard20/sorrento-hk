@@ -1,40 +1,40 @@
-/* responsive styles*/
+/* responsive styles */
 
 @media screen and ( max-width: 576px ) {
     .header {
-        grid-template-columns: 1fr 1fr;
-        padding: 0;
+      grid-template-columns: 1fr 1fr;
+      padding: 0;
     }
-
+  
     .home-link {
-        justify-self: start;
-        grid-row-start: 1;
-        grid-column-start: 1;
-        display: block;
+      justify-self: start;
+      grid-row-start: 1;
+      grid-column-start: 1;
+      display: block;
     }
     .logo {
-        width: 200px;
-        width: auto;
+      max-width: 200px;
+      width: auto;
     }
-
+  
     #navbutton {
-        display: block;
-        justify-self: center;
-        grid-row-start: 1;
-        grid-column-start: 2;
+      display: block;
+      justify-self: center;
+      grid-row-start: 1;
+      grid-column-start: 2;
     }
-
+  
     .navigation {
-        flex-direction: column;
-        grid-row-start: 2;
-        grid-column-start: 1;
-        grid-column-end: 3;
-        width: auto;
-        max-height: 0;
-        overflow: hidden;
+      flex-direction: column;
+      grid-row-start: 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      width: auto;
+      max-height: 0;
+      overflow: hidden;
     }
-
+  
     .navigation.open {
-        max-height: 50vh;
+      max-height: 50vh;
     }
-}
+  }
