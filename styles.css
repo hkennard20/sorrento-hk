@@ -2,7 +2,7 @@
 :root {
     --main-font: Helvetica, Calibri, sans-serif;
     --nav-link: #4d1d18;
-    --nav-hover: #555;
+    --nav-hover: #555555;
     --main-heading: #87423c;
     --main-heading-size: 36px;
     --sub-heading: #4d1d18;
@@ -12,48 +12,48 @@
     --footer-link: #87423c;
     /* theme colours */
     --primary-colour: #682721ff;
-    --primary-light: #9c716cff;
-    --primary-mid: #c8c6c8ff;
-    --secondary-dark: #424d45ff;
-    --light-grey: #d0c1acff;
-}
-html {
+    --primary-light: #9c706dff;
+    --primary-mid: #c9c7c8ff;
+    --secondary-dark: #333b33ff;
+    --light-grey: #ccbdaaff;
+  }
+  html {
     min-height: 100vh;
-}
-body {
+  }
+  body {
     font-family: var(--main-font);
     background-color: var(--primary-mid);
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
     margin: 0;
-}
-
-h1 {
+  }
+  
+  h1 {
     color: var(--main-heading);
     font-size: var(--main-heading-size);
-}
-
-h2 {
+  }
+  
+  h2 {
     color: var(--sub-heading);
     font-size: var(--sub-heading-size);
-}
-
-.header {
+  }
+  
+  .header {
     background-color: var(--primary-light);
     padding: 0.5em;
     display: grid;
     /* place-items: center; */
     grid-template-rows: auto auto;
-}
-
-.logo {
+  }
+  
+  .logo {
     width: 300px;
-}
-.home-link {
+  }
+  .home-link {
     justify-self: center;
-}
-#navbutton {
+  }
+  #navbutton {
     width: 52px;
     height: 52px;
     background-color: transparent;
@@ -62,80 +62,80 @@ h2 {
     font-size: 28px;
     border-radius: 0.3rem;
     display: none;
-}
-#navbutton:focus {
+  }
+  
+  #navbutton:focus {
     outline: transparent;
     background-color: var(--nav-link);
-}
-
-.navigation {
+  }
+  
+  .navigation {
     display: flex;
     flex-direction: row;
     justify-self: center;
-}
-
-.navigation a {
+  }
+  
+  .navigation a {
     text-decoration: none;
     color: var(--nav-link);
     padding: 0.8em;
-}
-
-.navigation a:hover {
+  }
+  
+  .navigation a:hover {
     color: var(--nav-hover);
-}
-
-.navigation .active {
+  }
+  
+  .navigation .active {
     font-weight: bold;
-}
-
-.content {
+  }
+  
+  .content {
     line-height: var(--content-lh);
-}
-
-.content a {
+  }
+  
+  .content a {
     color: var(--content-link);
-}
-
-.footer {
+  }
+  
+  .footer {
     color: var(--footer-link);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     padding: 1em 0.8em;
     background-color: var(--light-grey);
-}
-
-.secondary-nav {
+  }
+  
+  .secondary-nav {
     grid-column-start: 1;
     grid-row-start: 2;
     align-self: center;
-}
-
-.secondary-nav a {
+  }
+  
+  .secondary-nav a {
     color: var(--footer-link);
     text-decoration: none;
     padding: 0.8em;
     padding-left: 0;
-}
-
-.social {
+  }
+  
+  .social {
     grid-column-start: 2;
     grid-row-start: 1;
     justify-self: end;
     display: flex;
     flex-direction: row;
-    min-width: 20%;
     justify-content: space-between;
-}
-
-.social a {
+  }
+  
+  .social a {
     color: var(--footer-link);
     text-decoration: none;
     font-size: 1.5em;
     margin-left: 1.5em;
-}
-
-.copyright {
+  }
+  
+  .copyright {
     grid-column-start: 2;
     grid-row-start: 2;
     justify-self: end;
@@ -143,35 +143,35 @@ h2 {
     margin: 0;
     padding: 0.8em;
     padding-right: 0;
-}
-
-/* contact page */
-#contact {
+  }
+  
+  /* contact page */
+  #contact {
     max-width: 640px;
     margin: auto;
     margin-top: 4em;
-}
-.label {
+  }
+  .label {
     display: block;
-    margin-top: lem;
-}
-.input {
+    margin-top: 1em;
+  }
+  .input {
     min-width: 100%;
     padding: 0.5em;
     border: 1px solid var(--primary-light);
     border-radius: 0.5em;
     box-sizing: border-box;
-}
-.buttons {
+  }
+  .buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-.button {
+  }
+  .button {
     padding: 0.5em;
     background-color: var(--primary-colour);
     color: white;
     min-width: 80px;
     border: 1px solid var(--primary-colour);
     border-radius: 0.5em;
-}
+  }
