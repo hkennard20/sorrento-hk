@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Contact and Booking Sorrento by the sea</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="6c8b5e35271788276def9e07a075c259"crossorigin="anonymous" />
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="responsive.css">
-        <script src="script.js"></script>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta charset="UTF-8">
-    </head>
-    <body>
-        <header class="header">
-            <a href="index.html" class="home-link">
-                <img class="logo" src="images/sorrento_by_the_sea_logo.jpg" alt="sorrento by the sea logo"> 
-            </a>
-            <button id ="navbutton">
-                <i class="fas fa-bars"></i>
-            </button>
-           <nav class="navigation">
-               <a href="index.html">Home</a>
-               <a href="about.html">About</a>
-               <a href="contact.html" class="active">Contact</a>
-               <a href="localarea.html">Local Area</a>
-               <a href="booking.html">Bookings</a>
-           </nav>
-        </header>
-        <main class="content">
-            <form id="contact" method="POST" action="https://example.com/send">
-                <h1>Contact Us</h1>
-                <label class="label" for="user-name">Your Name</label>
-                <input type="text" class="input" id="user-name" name="sender" placeholder="Jane Smith">
-                <label class="label" for="user-email">Your Email Address</label>
-                <input type="email" class="input" id="user-email" name="email" placeholder="jane@example.com">
-                <label class="label" for="user-subject">Subject</label>
-                <input type="text" class="input" id="user-subject" name="subject" placeholder="accommodation availability">
-                <label class="label" for="user-message">Message</label>
-                <textarea class="input" id="user-message" name="message" placeholder="Hello there" cols="25" rows="6"></textarea>
-                <div class="buttons">
-                    <button type="reset" class="button">Cancel</button>
-                    <button type="submit" class="button">Send</button>
-                </div>
-            </form>
-        </main>
-        <footer class="footer">
-            <nav class="secondary-nav">
-                <a href="privacy.html">Privacy policy</a>
-            </nav>
-            <nav class="social">
-                <a href="https://facebook.com/sorrento">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="https://instagram.com/sorrento">
-                    <i class="fab fa-instagram-square"></i>
-                </a>
-                <a href="https://twitter.com/sorrento">
-                    <i class="fab fa-twitter-square"></i>
-                </a>
-            </nav>
-            <p class="copyright">
-                &copy; Sorrento by the sea 2020
-            </p>
-        </footer>
-    </body>
+  <head>
+    <title>Contact Sorrento by the sea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="home-link">
+        <img class="logo" src="images/sorrento_by_the_sea_logo.jpg" alt="sorrento by the sea logo">
+      </a>
+      <button id="navbutton">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="booking.html">Bookings</a>
+        <a href="about.html">About</a>
+        <a href="localarea.html">Local Area</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+    <main class="content">
+      <form id="contact" method="POST" action="https://example.com/send">
+        <h1>Contact Us</h1>
+        <label class="label" for="user-name">Your Name</label>
+        <input type="text" class="input" id="user-name" name="sender" placeholder="Jane Smith">
+        <label class="label" for="user-email">Your Email Address</label>
+        <input type="email" class="input" id="user-email" name="email" placeholder="jane@example.com">
+        <label class="label" for="user-subject">Subject</label>
+        <input type="text" class="input" id="user-subject" name="subject" placeholder="accommodation availability">
+        <label class="label" for="user-message">Message</label>
+        <textarea class="input" id="user-message" name="message" placeholder="Hello there" cols="25" rows="6"></textarea>
+        <div class="buttons">
+          <button type="reset" class="button">Cancel</button>
+          <button type="submit" class="button">Send</button>
+        </div>
+      </form>
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25033.806706116196!2d144.7255510810927!3d-38.343754648217065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad434fd0d956f7b%3A0x5045675218ce590!2sSorrento%20VIC%203943!5e0!3m2!1sen!2sau!4v1606173474099!5m2!1sen!2sau" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+      </iframe>
+    </main>
+    <footer class="footer">
+      <nav class="secondary-nav">
+        <a href="privacy.html">Privacy policy</a>
+      </nav>
+      <nav class="social">
+        <a href="https://facebook.com/sorrento">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/sorrento">
+          <i class="fab fa-instagram-square"></i>
+        </a>
+        <a href="https://twitter.com/sorrento">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+      </nav>
+      <p class="copyright">
+        &copy; Sorrento by the sea 2020
+      </p>
+    </footer>
+  </body>
 </html>
